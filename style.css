@@ -1,0 +1,32 @@
+.dropdown-content li>span {
+    color: blue !important;
+    background-color: bisque !important;
+}
+
+.switch label input[type=checkbox]:checked+.lever:after {
+    background-color: papayawhip !important;
+}
+
+.switch label input[type=checkbox]:checked+.lever {
+    background-color: orange;
+}
+
+.datepicker-date-display {
+    background-color: orchid;
+}
+
+.progress {
+    background-color: chocolate !important;
+}
+
+.progress .determinate {
+    background-color: burlywood !important;
+}
+
+.progress .indeterminate:before {
+    background-color: darkorange !important;
+}
+
+.progress .indeterminate:after {
+    background-color: darksalmon !important;
+}

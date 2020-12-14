@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compile and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6a79530112.js"crossorigin="anonymous">
+    </script>
+
+    <title>Modal</title>
+</head>
+<body class="amber accent-1">
+    
+    <div class="container">
+        <h1 class="grey-text">Modal</h1>
+
+    <!-- Modal -->
+    <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn grey modal-trigger" href="#modal1">Modal
+  </a>
+
+  <!-- Modal Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat nulla eaque autem, reprehenderit rerum asperiores illo assumenda dicta ipsum dolore quasi tenetur accusantium veniam optio. Dolor culpa esse, reprehenderit sapiente ex incidunt cupiditate alias ipsam quae maiores facilis corrupti magni dolorum similique perspiciatis quaerat beatae quo! A, labore? Quos, recusandae!
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree
+    </a>
+    </div>
+</div>
+
+<!-- Fixed Footer -->
+<!-- Modal Trigger -->
+<a class="waves-effect waves-light btn modal-trigger" href="#modal2">Modal
+</a>
+
+<!-- Modal Structure -->
+<div id="modal2" class="modal modal-fixed-footer">
+  <div class="modal-content">
+    <h4>Modal Header</h4>
+    <p>A bunch of text</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ex sunt modi! Omnis dicta minima magnam commodi tempore ipsum, amet excepturi ipsam earum quasi vitae consequuntur sint porro eius ex. Obcaecati possimus, quis voluptatem incidunt molestiae, quas eveniet nobis atque fugit quo tempore commodi aliquid, ipsam et totam aut eos ratione illo deserunt! Itaque vero possimus fugit esse tenetur, aperiam architecto fugiat eos soluta maiores, deserunt exercitationem id a, aspernatur ex. Dolores impedit unde accusantium? Architecto aspernatur iusto dolorem odio perferendis id, fugit, voluptatem minus iste ut cupiditate vitae, expedita magni odit nemo reiciendis quos earum animi. Voluptatibus, molestias non!
+    </p>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+  </div>
+</div>
+
+    <!-- Bottom Sheet -->
+     <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn brown accent-2 modal-trigger" href="#modal3">Modal
+  </a>
+
+  <!-- Modal Structure -->
+  <div id="modal3" class="modal bottom-sheet">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+
+
+
+
+    <!-- End of container -->
+    </div>
+
+
+
+
+    <!--Jquery CDN  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
+    </script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+    <script>
+        $(document).ready(function(){
+    $('.modal').modal();
+  });
+    </script>
+</body>
+</html>
